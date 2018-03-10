@@ -1,14 +1,31 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+    <meta charset="utf-8">
+    <title>Splatter</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 
+  <body bgcolor= 0>
 
-<!--
+    <header>
+      <h1>Splatter Art</h1>
+    </header>
+    <hr>
+    <hr>
 
-Scripts needed:
+    <main>
+      <label for="slider">spred dat shii</label>
+      <input type = "range" id = "slider" value="50" min="0" max = "100"></input>
+      <button id="clear-button">CLEAR</button>
+      <div id="canvas-area"></div>
+    </main>
 
-https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="script.js"></script>
 
-https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js
+  </body>
 
-script.js
-
--->
+</html>
